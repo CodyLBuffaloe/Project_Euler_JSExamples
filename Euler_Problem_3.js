@@ -3,7 +3,7 @@ var testNum= 600851475143;
 var primeCalculator= function(){
 	var calcdPrime = 1;
 
-	for(var num= 1; num<1000;num++){
+	for(var num= 1; num<100000;num++){
 		if(testNum % num ==0){
 			if(isPrime(num)){
 				calcdPrime=num;
